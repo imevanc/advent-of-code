@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ts-node index.ts"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/imevanc/advent-of-code.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "imevanc",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/imevanc/advent-of-code/issues"
