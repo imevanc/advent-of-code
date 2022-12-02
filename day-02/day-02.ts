@@ -1,0 +1,1 @@
+export const Tournament = (data: number[]): Solution => {

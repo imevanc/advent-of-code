@@ -8,10 +8,10 @@ interface Solution {
   topThreeCalories: number;
 }
 
-export const Elf = (data: number[]): Solution => {
+export const Elf = (data: number[] | string[]): Solution => {
   const elves: Elf[] = [];
   let elf: Elf = { calories: 0, items: [] };
-  data.forEach((calories: number): void => {
+  data.forEach((calories: number | string): void => {
     if (isNaN(calories)) {
       elves.push(elf);
       elf = { calories: 0, items: [] };
